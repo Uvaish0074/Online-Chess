@@ -5,7 +5,7 @@ const messageInputElement = document.getElementById('message-input');
 const sendButton = document.getElementById('send-button');
 
 // --- WebSocket ---
-const ws = new WebSocket('ws://localhost:8080');
+const ws = new WebSocket(`ws://${window.location.host}`);
 
 let playerColor = null;
 
