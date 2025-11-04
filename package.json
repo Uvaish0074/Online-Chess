@@ -1,0 +1,12 @@
+{
+  "name": "chess",
+  "version": "1.0.0",
+  "description": "A real-time online chess game with chat.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "ws": "^8.0.0"
+  }
+}
